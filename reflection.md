@@ -4,21 +4,27 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 
 ## 1. What was broken when you started?
 
-- What did the game look like the first time you ran it?
-- List at least two concrete bugs you noticed at the start  
-  (for example: "the hints were backwards").
+The game looked pretty normal at first. There's a little sidebar on the left that allows you to change the difficulty of the game. That seems to work as intended as the difficulty change updates the main screen's attempts, though it does showcase 1 less attempt at the initial start than what is said on the left sidebar. The game's hints are also in reverse. 
 
 **Bug Reproduction Log**
 
 Document at least 3 bugs you found. Add rows as needed.
 
-| Input | Expected Behavior | Actual Behavior | Console Output / Error |
-|-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
-
----
+| Input       | Expected Behavior | Actual Behavior  | Console Output / Error   |
+|-------------|-------------------|------------------|--------------------------|
+| Enter 34    | Displays Go Higher| Displays Go Lower| no error                 |
+| when secret |                   |                  |                          |
+| number is 60|                   |                  |                          |
+| | | | | | | | | | | | | | | | | | | | | | | | | |  | | | | | | | | | | | |  | |
+| Start a     | Display 8 attempts| Displays only 7  | no error                 |
+| new game    | remaining         | attempts before  |                          |
+| on Normal   |                   | making a guess   |                          |
+| difficulty  |                   |                  |                          |
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | 
+| Win the     | Reset the game    | Game prevents    | "Game over. Start a new  |
+| game, then  | and allow guessing| any new guesses  | game to try again."      |
+| click reset |  again            |                  |
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 
 ## 2. How did you use AI as a teammate?
 

@@ -12,18 +12,9 @@ Document at least 3 bugs you found. Add rows as needed.
 
 | Input       | Expected Behavior | Actual Behavior  | Console Output / Error   |
 |-------------|-------------------|------------------|--------------------------|
-| Enter 34    | Displays Go Higher| Displays Go Lower| no error                 |
-| when secret |                   |                  |                          |
-| number is 60|                   |                  |                          |
-| | | | | | | | | | | | | | | | | | | | | | | | | |  | | | | | | | | | | | |  | |
-| Start a     | Display 8 attempts| Displays only 7  | no error                 |
-| new game    | remaining         | attempts before  |                          |
-| on Normal   |                   | making a guess   |                          |
-| difficulty  |                   |                  |                          |
-| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | 
-| Win the     | Reset the game    | Game prevents    | "Game over. Start a new  |
-| game, then  | and allow guessing| any new guesses  | game to try again."      |
-| click reset |  again            |                  |
+| Enter 34 when secret number is 60 | Displays Go Higher | Displays Go Lower | no error |
+| Start a new game on Normal difficulty | Display 8 attempts remaining | Displays only 7 attempts before making a guess | no error |
+| Win the game, then click reset | Reset the game and allow guessing again | Game prevents any new guesses | "Game over. Start a new game to try again." |
 | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 
 ## 2. How did you use AI as a teammate?
